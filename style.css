@@ -4,8 +4,29 @@ body {
 h3 {
     color: #666;
     font-weight: 800; /*жирный*/
+    padding: 10px;
+    margin: 10px;
+    position: fixed;
+    left: 590px;
+
+    /*position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;*/
+}
+p {
+    color: #666;
+    font-weight: 750; /*жирный*/
+    background: orange;
+    padding: 15px;
+    margin: 15px;
 }
 span {
-    color: greenyellow;
-    background: yellow;
+    color: white;
+    background: orange;
+}
+img {
+    height: 150px;
+    width: 150px;
+    padding: 15px;
 }
