@@ -1,25 +1,32 @@
+html {
+    background: Aqua;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-h3 {
-    color: #666;
-    font-weight: 800; /*жирный*/
-    padding: 10px;
-    margin: 10px;
+.search{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 20px;
+}
+.books {
+    /* display: flex;  */
     position: fixed;
-    left: 590px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    width: 100%;
 
-    /*position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;*/
+    /* font-weight: 800; жирный */
+    /* padding: 10px; */
+    /* margin: 10px; */
 }
 p {
     color: #666;
     font-weight: 750; /*жирный*/
     background: orange;
     padding: 15px;
-    margin: 15px;
+    margin: 25px;
 }
 span {
     color: white;
@@ -29,4 +36,11 @@ img {
     height: 150px;
     width: 150px;
     padding: 15px;
+}
+#qq {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 2px 2px;
 }
