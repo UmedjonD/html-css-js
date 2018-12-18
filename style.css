@@ -21,6 +21,26 @@ body {
     /* padding: 10px; */
     /* margin: 10px; */
 }
+.myname{
+    position: fixed;
+    justify-content: flex-start;
+    color: rgb(2, 2, 2);
+    width: 100%;
+    
+}
+.exit {
+    position: fixed;
+    justify-content: flex-start;
+    color: rgb(175, 172, 172);
+    width: 100%;
+    margin-left: 140px;
+    top: 27px;
+}
+.knopka1 {
+    width: 100%;
+
+}
+
 p {
     color: #666;
     font-weight: 750; /*жирный*/
@@ -32,11 +52,35 @@ span {
     color: white;
     background: orange;
 }
+
+.img {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 img {
+    border: 1px solid black;
+    margin: 10px;
     height: 150px;
     width: 150px;
     padding: 15px;
 }
+.product {
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+
+.price {
+    border: 1px solid red;
+    display: flex;
+}
+
 #qq {
     -webkit-appearance: none;
     outline: none;
@@ -46,12 +90,12 @@ img {
 }
 /* отсюда регистрация */
 .myform {
+    display: flex;
 	background-color:rgb(225, 230, 252);
 	width:400px;
 	height:320px;
-	opacity:1;
-	margin-left:290px;
-	margin-top:100px;
+	margin-left:300px;
+	margin-top:150px;
 	text-align:center;
 }
 .contener {
@@ -67,4 +111,3 @@ img {
 	height:100%;
     float:left;
 }
-
