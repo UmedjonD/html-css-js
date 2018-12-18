@@ -65,20 +65,42 @@ img {
     margin: 10px;
     height: 150px;
     width: 150px;
-    padding: 15px;
+    padding: 20px;
 }
 .product {
     border: 1px solid blue;
+    background: olive;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 10px;
+    width: 100%;
+    margin: 20px;
+}
+.name-item {
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    margin: 10%
 
+    
+    
 }
 
 .price {
     border: 1px solid red;
     display: flex;
+    position: relative;
+    margin: 10%;
+    
+    right: 0%;
+    top: 0%;
+    bottom: 50%;
+}
+.pkorzina {
+    border: 1px solid orchid;
+    display: flex;
+    position: relative;
+    
 }
 
 #qq {
