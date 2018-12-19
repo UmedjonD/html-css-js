@@ -12,7 +12,9 @@ function myFunction3() {
 }
 function product1(Element){
     // document.getElementById('21');
-    alert(Element);
+    //alert(Element);
+    Element.style.cssText = "width: 100%";
     
 }
+
 

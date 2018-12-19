@@ -68,24 +68,39 @@ img {
     padding: 20px;
 }
 .product {
+    /*display: none;*/
     border: 1px solid blue;
     background: olive;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
-    margin: 20px;
+    width: 13%;
+    margin: 10px;
+    top: 10%
+}
+.photo{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 4px 0 5px 5px;
+    background: #f0f0f0;
+}
+.photo .name-item{
+    margin: 0 auto 5px;
 }
 .name-item {
     border: 1px solid white;
     display: flex;
     position: relative;
     margin: 10%
-
-    
     
 }
-
+.parametr{
+    display: flex;
+    position: relative;
+    margin: 10%
+}
 .price {
     border: 1px solid red;
     display: flex;
@@ -100,6 +115,7 @@ img {
     border: 1px solid orchid;
     display: flex;
     position: relative;
+    margin: 5%;
     
 }
 
@@ -114,11 +130,14 @@ img {
 .myform {
     display: flex;
 	background-color:rgb(225, 230, 252);
-	width:400px;
-	height:320px;
+	width:500px;
+	height:300px;
 	margin-left:300px;
 	margin-top:150px;
 	text-align:center;
+}
+form{
+    width: 95%;
 }
 .contener {
     display: flex;
