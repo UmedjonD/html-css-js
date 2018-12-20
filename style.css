@@ -4,37 +4,35 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.search{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    height: 20px;
-}
+
 .books {
     /* display: flex;  */
     position: fixed;
     text-align: center;
     color: rgb(2, 2, 2);
     width: 100%;
-
+    height: 10px;
     /* font-weight: 800; жирный */
     /* padding: 10px; */
     /* margin: 10px; */
 }
 .myname{
     position: fixed;
+    position: relative;
     justify-content: flex-start;
     color: rgb(2, 2, 2);
     width: 100%;
+    height: 0px;
+    top: 3px;
     
 }
 .exit {
-    position: fixed;
-    justify-content: flex-start;
-    color: rgb(175, 172, 172);
-    width: 100%;
+    display:  fixed;
+    /* position: relative; */
+    color: rgb(4, 4, 4);
+    /* width: 90%; */
     margin-left: 140px;
-    top: 27px;
+    height: 0px;
 }
 .knopka1 {
     width: 100%;
@@ -53,72 +51,71 @@ span {
     background: orange;
 }
 
+
+
 .img {
     border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
-img {
-    border: 1px solid black;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    padding: 20px;
+
+
+.product img {
+    width: 100%;
+    height: 250px;
 }
-.product {
-    /*display: none;*/
+
+.product_detail img {
+    width: 200px;
+    height: 250px;
+}
+
+.product_detail  {
+    display: none;
     border: 1px solid blue;
     background: olive;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 13%;
+    /* display: block; */
+    width: 100%;
     margin: 10px;
-    top: 10%
 }
-.photo{
+
+.product {
+    /* display: none; */
+    border: 1px solid blue;
+    background: olive;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+  
+}
+/* .photo{
     display: flex;
     justify-content: flex-start;
     border: 1px solid #333;
     padding: 5px;
     margin: 4px 0 5px 5px;
     background: #f0f0f0;
-}
-.photo .name-item{
+} */
+/* .photo .name-item{
     margin: 0 auto 5px;
-}
+} */
 .name-item {
     border: 1px solid white;
     display: flex;
     position: relative;
     margin: 10%
-    
 }
 .parametr{
-    display: flex;
+    display: none;
     position: relative;
     margin: 10%
 }
-.price {
-    border: 1px solid red;
-    display: flex;
-    position: relative;
-    margin: 10%;
-    
-    right: 0%;
-    top: 0%;
-    bottom: 50%;
-}
 .pkorzina {
     border: 1px solid orchid;
-    display: flex;
+    display: none;
     position: relative;
     margin: 5%;
     
 }
-
 #qq {
     -webkit-appearance: none;
     outline: none;
@@ -151,4 +148,97 @@ form{
 	width:50%;
 	height:100%;
     float:left;
+}
+/* стиль для карзины */
+.search{
+    display: flex;
+    justify-content: flex-end;
+    position: relative; 
+    height: 20px;
+
+}
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 100;
+  }
+  #okno {
+    border: 1px solid rgb(248, 233, 28);      
+    width: 800px;
+    height:500px;
+    text-align: end;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 10%;
+    left: 10%;
+    background: #fff;
+  }
+  #okno_elements {
+    height:350px;
+    overflow: scroll;
+  }
+ #zatemnenie:target {display: block;}
+  .close {
+    display: inline-block;
+    border: 1px solid #0000cc;
+    color: #0000cc;
+    padding: 0 12px;
+    margin: 14px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 15pt;
+    cursor:pointer; 
+   }
+.inSearch {
+    position: fixed;
+    left: 40%;
+    margin: 100px
+} 
+.inbutton {
+    position: fixed;
+    left: 50%;
+    margin: 100px
+}
+
+#okno_elements {
+    text-align: left;
+}
+
+#okno_elements img {
+    width: 120px;
+}
+#summa {
+    width: 18%;
+}
+#suka {
+    width: 15%;
+}
+#skidka {
+    width: 18%;
+}
+#blyat{
+    width: 15%;
+}
+#itogo {
+    width: 18%;
+}
+#nahoi{
+    width: 15%;
+}
+.nameK {
+    width: 10%;
 }
