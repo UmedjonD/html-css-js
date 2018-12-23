@@ -170,9 +170,9 @@ form{
     z-index: 100;
   }
   #okno {
-    border: 1px solid rgb(248, 233, 28);      
+    border: 1px solid rgb(94, 28, 248);      
     width: 800px;
-    height:500px;
+    height:600px;
     text-align: end;
     padding: 15px;
     border: 3px solid #0000cc;
@@ -240,5 +240,12 @@ form{
     width: 15%;
 }
 .nameK {
-    width: 10%;
+    width: 100%;
+}
+.priceK {
+    width: 100%;
+}
+.in_korzina {
+    border: 1px solid rgb(28, 248, 65);
+    background: #666;      
 }
