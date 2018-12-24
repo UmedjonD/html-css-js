@@ -1,33 +1,33 @@
-$(function() {
-    $("form[name='registration']").validate({
-      // правила проверки
-      rules: {
-        firstname: "required",
-        lastname: "required",
-        email: {
-          required: true,
-          email: true
-        },
-        password, password2: {
-          required: true,
-          minlength: 5
-        }
-      },
-      // мессеж при ошибки
-      messages: {
-        firstname: "Пожалуйста введите имя",
-        lastname: "пожайлуйста введите фамилию",
-        password: {
-          required: "введите пароль",
-          minlength: "пароль не должен быть менее 5 символов"
-        },
-        email: "введите емайл"
-      },
-      submitHandler: function(form) {
-        form.submit();
-      }
-    });
-  });
+// $(function() {
+//     $("form[name='registration']").validate({
+//       // правила проверки
+//       rules: {
+//         firstname: "required",
+//         lastname: "required",
+//         email: {
+//           required: true,
+//           email: true
+//         },
+//         password, password2: {
+//           required: true,
+//           minlength: 5
+//         }
+//       },
+//       // мессеж при ошибки
+//       messages: {
+//         firstname: "Пожалуйста введите имя",
+//         lastname: "пожайлуйста введите фамилию",
+//         password: {
+//           required: "введите пароль",
+//           minlength: "пароль не должен быть менее 5 символов"
+//         },
+//         email: "введите емайл"
+//       },
+//       submitHandler: function(form) {
+//         form.submit();
+//       }
+//     });
+//   });
 
 $('.product').on('click', function() {
     $('.product').show();
@@ -65,4 +65,3 @@ $('.product_detail .add').on('click', function() {
         '</div>'
     );
 });
-
