@@ -65,7 +65,7 @@ $('.product_detail .add').on('click', function() {
     $('#skidka').text(skidka);
     $('#itogo').text(itogo);
 
-   var elementHtml = $('<tr>' +
+   let elementHtml = $('<tr>' +
         '<td><img src="' + img + '"></td>' +
         '<td>' + name + '</td>' +
         '<td>' + price + '</td>' +
